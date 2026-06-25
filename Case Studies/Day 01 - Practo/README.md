@@ -7,6 +7,7 @@
 **Country:** India  
 **Analysis Type:** Product Management Case Study  
 **Author:** Gaurav Kumar Singh
+<img width="1536" height="1024" alt="practo-cover png" src="https://github.com/user-attachments/assets/eedc9283-d605-4b8b-977c-da07c38e9eb2" />
 
 ---
 
