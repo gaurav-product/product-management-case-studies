@@ -161,3 +161,375 @@ Practo's biggest strength is not appointment booking.
 
 Its real strength is bringing multiple healthcare services together into a single, connected ecosystem.
 
+# Target Users
+
+Practo serves multiple user segments, each with distinct goals and expectations. Understanding these segments is essential because Practo operates as a multi-sided marketplace where success depends on delivering value to all stakeholders simultaneously.
+
+## Primary User Segments
+
+### 1. Patients (B2C)
+
+Patients use Practo to discover healthcare providers, compare options, book appointments, consult doctors online, and manage their healthcare records.
+
+**Goals**
+
+* Find trusted doctors quickly
+* Compare doctors using ratings and reviews
+* Book appointments without phone calls
+* Consult doctors remotely
+* Order medicines conveniently
+* Maintain digital health records
+
+**Pain Points**
+
+* Difficulty finding reliable specialists
+* Long waiting times
+* Lack of transparency in pricing
+* Multiple healthcare providers with disconnected records
+* Time-consuming appointment booking
+
+---
+
+### 2. Doctors
+
+Doctors use Practo to increase patient visibility, manage appointments, conduct online consultations, and digitize their clinical workflow.
+
+**Goals**
+
+* Attract new patients
+* Build online credibility
+* Reduce administrative work
+* Manage schedules efficiently
+* Conduct teleconsultations
+
+**Pain Points**
+
+* Dependence on offline referrals
+* Manual appointment management
+* High no-show rates
+* Limited online presence
+* Administrative workload
+
+---
+
+### 3. Hospitals & Clinics
+
+Hospitals leverage Practo to improve patient acquisition, optimize appointment scheduling, and increase operational efficiency.
+
+**Goals**
+
+* Improve appointment utilization
+* Increase patient inflow
+* Reduce scheduling conflicts
+* Improve digital presence
+
+---
+
+### 4. Diagnostic Centers
+
+Diagnostic partners use Practo to acquire customers and simplify laboratory test bookings.
+
+---
+
+### 5. Pharmacies
+
+Online pharmacy partners fulfill digital prescriptions and medicine orders generated through the platform.
+
+---
+
+# User Personas
+
+## Persona 1 — Busy Working Professional
+
+**Name:** Rahul Sharma
+
+**Age:** 30
+
+**Occupation:** Software Engineer
+
+**Location:** Bengaluru
+
+### Goals
+
+* Book appointments quickly
+* Consult online after office hours
+* Save time
+* Access trusted doctors
+
+### Frustrations
+
+* Calling clinics repeatedly
+* Uncertain appointment availability
+* Waiting at hospitals
+* Difficulty storing medical records
+
+### Quote
+
+*"Healthcare should fit into my schedule, not the other way around."*
+
+---
+
+## Persona 2 — Parent Managing Family Healthcare
+
+**Name:** Priya Verma
+
+**Age:** 38
+
+**Occupation:** Teacher
+
+### Goals
+
+* Book pediatric appointments
+* Manage family prescriptions
+* Store medical history
+* Receive healthcare reminders
+
+### Frustrations
+
+* Managing healthcare for multiple family members
+* Lost prescriptions
+* Repeating medical history at every visit
+
+### Quote
+
+*"I want one place where I can manage my family's healthcare."*
+
+---
+
+## Persona 3 — Independent Doctor
+
+**Name:** Dr. Amit Mehta
+
+**Age:** 45
+
+**Specialization:** Dermatology
+
+### Goals
+
+* Acquire new patients
+* Build online reputation
+* Reduce no-shows
+* Manage appointments digitally
+
+### Frustrations
+
+* Manual scheduling
+* Missed appointments
+* Administrative burden
+
+### Quote
+
+*"I want to spend more time treating patients than managing appointments."*
+
+---
+
+# Jobs To Be Done (JTBD)
+
+Rather than thinking about features, Product Managers should understand what users are actually trying to accomplish.
+
+## Functional Jobs
+
+Patients want to:
+
+* Find the right doctor
+* Book appointments
+* Consult remotely
+* Access prescriptions
+* Order medicines
+* Book diagnostic tests
+
+Doctors want to:
+
+* Attract more patients
+* Manage consultations
+* Improve efficiency
+
+Hospitals want to:
+
+* Increase patient bookings
+* Optimize operations
+
+---
+
+## Emotional Jobs
+
+Patients want to:
+
+* Feel confident in their healthcare decisions
+* Reduce anxiety before consultations
+* Trust the doctor they choose
+* Feel in control of their healthcare journey
+
+---
+
+## Social Jobs
+
+Patients also want to:
+
+* Choose highly rated doctors
+* Receive recommendations
+* Feel reassured by community reviews
+
+---
+
+# Customer Journey Map
+
+## Stage 1 — Problem Recognition
+
+The patient experiences symptoms.
+
+Questions arise:
+
+* Should I visit a doctor?
+* Which specialist do I need?
+
+### Pain Points
+
+* Uncertainty
+* Lack of medical knowledge
+
+---
+
+## Stage 2 — Doctor Discovery
+
+The patient opens Practo.
+
+They search using:
+
+* Symptoms
+* Specialty
+* Location
+* Language
+* Availability
+
+### Pain Points
+
+Too many choices may overwhelm users.
+
+### Opportunity
+
+Improve doctor recommendations using patient preferences and previous consultation history.
+
+---
+
+## Stage 3 — Evaluation
+
+The patient compares doctors based on:
+
+* Reviews
+* Ratings
+* Experience
+* Consultation fee
+* Clinic distance
+* Available slots
+
+### Opportunity
+
+AI-powered doctor matching based on symptoms and historical outcomes could reduce decision fatigue.
+
+---
+
+## Stage 4 — Appointment Booking
+
+The patient selects a time slot and confirms the appointment.
+
+### Pain Points
+
+* Appointment cancellations
+* Limited availability
+* Confusing rescheduling process
+
+### Opportunity
+
+Offer intelligent waitlists and alternative recommendations when preferred slots are unavailable.
+
+---
+
+## Stage 5 — Consultation
+
+The patient visits the clinic or joins an online consultation.
+
+### Pain Points
+
+* Waiting time
+* Connectivity issues (online)
+* Difficulty accessing previous medical records
+
+---
+
+## Stage 6 — Post Consultation
+
+The patient receives:
+
+* Prescription
+* Follow-up instructions
+* Diagnostic recommendations
+* Medicine orders
+
+### Pain Points
+
+Many users leave the platform after the consultation.
+
+### Opportunity
+
+Increase retention through personalized follow-up reminders, medication tracking, and wellness recommendations.
+
+---
+
+# Customer Journey Summary
+
+| Stage        | User Goal          | Pain Point                 | Product Opportunity    |
+| ------------ | ------------------ | -------------------------- | ---------------------- |
+| Awareness    | Find a doctor      | Doesn't know whom to trust | Better recommendations |
+| Discovery    | Compare doctors    | Information overload       | AI-powered ranking     |
+| Booking      | Secure appointment | Limited slots              | Smart waitlist         |
+| Consultation | Receive treatment  | Waiting time               | Better scheduling      |
+| Post-care    | Continue recovery  | Users disengage            | Follow-up ecosystem    |
+
+---
+
+# Empathy Map
+
+## Thinks
+
+* "Am I choosing the right doctor?"
+* "Will this treatment work?"
+
+## Feels
+
+* Anxious
+* Confused
+* Hopeful
+
+## Says
+
+* "I need a trusted specialist."
+
+## Does
+
+* Searches online
+* Reads reviews
+* Compares doctors
+* Books an appointment
+
+---
+
+# Key Insights
+
+After analyzing the target users, several insights emerge:
+
+1. Practo is fundamentally a trust platform rather than just a booking platform.
+
+2. Different stakeholders define success differently—patients seek convenience, while doctors and hospitals prioritize operational efficiency.
+
+3. The biggest opportunity lies beyond appointment booking. Improving continuity of care through follow-ups, medication adherence, and long-term health management could significantly increase user retention.
+
+---
+
+## Product Management Lesson #2
+
+Users don't wake up wanting to "book appointments."
+
+They want reassurance that they're making the right healthcare decision.
+
+The most valuable products reduce uncertainty—not just clicks.
