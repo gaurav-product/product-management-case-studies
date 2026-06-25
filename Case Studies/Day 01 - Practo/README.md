@@ -533,3 +533,347 @@ Users don't wake up wanting to "book appointments."
 They want reassurance that they're making the right healthcare decision.
 
 The most valuable products reduce uncertainty—not just clicks.
+# Core Product Features
+
+Practo has evolved into a healthcare ecosystem rather than a single-purpose application. Its features are designed to support patients throughout their healthcare journey while also providing value to healthcare providers.
+
+## Patient Features
+
+- Doctor Discovery
+- Appointment Booking
+- Video Consultation
+- In-Clinic Consultation
+- Digital Prescriptions
+- Medicine Ordering
+- Diagnostic Test Booking
+- Health Records
+- Doctor Reviews & Ratings
+- Health Articles
+
+---
+
+## Doctor Features
+
+- Practo Ray (Clinic Management Software)
+- Appointment Management
+- Electronic Medical Records (EMR)
+- Video Consultation Dashboard
+- Digital Prescription Generation
+- Patient Database
+- Billing & Practice Management
+
+---
+
+## Platform Features
+
+- Search & Discovery
+- Recommendation Engine
+- Notifications & Reminders
+- Secure Payments
+- Review System
+- Customer Support
+
+---
+
+# Information Architecture
+
+A simplified representation of Practo's product architecture:
+
+```
+Home
+│
+├── Search Doctor
+│     ├── Specialty
+│     ├── Location
+│     ├── Availability
+│     └── Reviews
+│
+├── Online Consultation
+│
+├── Medicines
+│
+├── Lab Tests
+│
+├── Health Records
+│
+├── My Appointments
+│
+└── Profile
+```
+
+The navigation is intuitive, with healthcare services grouped into clearly defined categories.
+
+---
+
+# Product Strengths
+
+Practo succeeds because it combines multiple healthcare services into one ecosystem.
+
+### 1. Convenience
+
+Users can complete almost the entire healthcare journey within one platform.
+
+### 2. Trust
+
+Verified doctors, ratings, reviews, and detailed profiles reduce uncertainty.
+
+### 3. Network Effects
+
+More doctors attract more patients.
+
+More patients encourage more doctors to join.
+
+This creates a strong marketplace flywheel.
+
+### 4. Brand Recognition
+
+Practo has become one of India's most recognized digital healthcare brands.
+
+---
+
+# Business Model
+
+Practo follows a hybrid business model.
+
+## B2C Marketplace
+
+Patients use Practo to:
+
+- Find doctors
+- Book appointments
+- Consult online
+- Order medicines
+- Book lab tests
+
+---
+
+## B2B SaaS
+
+Healthcare providers subscribe to Practo Ray, which helps them manage:
+
+- Appointments
+- Billing
+- Medical Records
+- Scheduling
+- Practice Operations
+
+---
+
+## Platform Partnerships
+
+Practo also collaborates with:
+
+- Hospitals
+- Diagnostic Labs
+- Pharmacies
+- Insurance Partners
+
+These partnerships expand the platform while creating additional revenue streams.
+
+---
+
+# Revenue Streams
+
+Practo generates revenue through multiple channels.
+
+## 1. Practo Ray Subscription
+
+Doctors and clinics pay monthly or annual subscription fees.
+
+---
+
+## 2. Online Consultation Fees
+
+Practo earns commissions from digital consultations.
+
+---
+
+## 3. Diagnostic Test Commissions
+
+Revenue is generated from partner laboratories.
+
+---
+
+## 4. Medicine Delivery
+
+Commission on pharmacy transactions.
+
+---
+
+## 5. Sponsored Listings
+
+Doctors and clinics can pay for better visibility.
+
+---
+
+## 6. Enterprise Solutions
+
+Healthcare providers purchase software solutions for clinic management.
+
+---
+
+# Business Model Canvas
+
+| Key Partners | Doctors, Hospitals, Labs, Pharmacies |
+|--------------|--------------------------------------|
+| Key Activities | Appointment booking, Telemedicine, SaaS |
+| Value Proposition | Easy healthcare access |
+| Customer Relationships | Self-service + Support |
+| Customer Segments | Patients, Doctors, Clinics |
+| Channels | Mobile App, Website |
+| Revenue Streams | SaaS, Commissions, Ads |
+| Cost Structure | Technology, Operations, Marketing |
+
+---
+
+# Product Flywheel
+
+```
+More Doctors
+      │
+      ▼
+Better Availability
+      │
+      ▼
+More Patients
+      │
+      ▼
+More Reviews
+      │
+      ▼
+Greater Trust
+      │
+      ▼
+Higher Bookings
+      │
+      ▼
+More Revenue
+      │
+      ▼
+More Doctors
+```
+
+This self-reinforcing loop is one of Practo's strongest competitive advantages.
+
+---
+
+# North Star Metric
+
+A North Star Metric measures the core value delivered to users.
+
+### Suggested North Star Metric
+
+> **Successful Healthcare Consultations Completed**
+
+Why?
+
+Because almost every service contributes to this outcome:
+
+- Doctor Discovery
+- Appointment Booking
+- Video Consultation
+- In-Clinic Visit
+
+If consultations increase, both user value and business value grow.
+
+---
+
+# Supporting Metrics
+
+## Acquisition
+
+- New User Signups
+- App Downloads
+- Website Traffic
+- Customer Acquisition Cost (CAC)
+
+---
+
+## Activation
+
+- Doctor Searches
+- First Appointment Booked
+- First Video Consultation
+
+---
+
+## Engagement
+
+- Monthly Active Users (MAU)
+- Daily Active Users (DAU)
+- Repeat Appointment Rate
+- Session Duration
+
+---
+
+## Retention
+
+- 30-Day Retention
+- 90-Day Retention
+- Repeat Consultation Rate
+- Medicine Reorder Rate
+
+---
+
+## Revenue
+
+- Average Revenue Per User (ARPU)
+- Subscription Revenue
+- Consultation Revenue
+- Lab Test Revenue
+
+---
+
+## Marketplace Metrics
+
+- Doctors Onboarded
+- Appointment Success Rate
+- Consultation Completion Rate
+- Average Doctor Rating
+- Cancellation Rate
+
+---
+
+# Product Risks
+
+Although Practo is successful, several challenges remain.
+
+### Regulatory Changes
+
+Healthcare regulations continue to evolve.
+
+### Data Privacy
+
+Medical information is highly sensitive.
+
+### Competition
+
+Health-tech competition is increasing rapidly.
+
+### Trust
+
+Fake reviews or poor experiences can significantly damage credibility.
+
+### Marketplace Balance
+
+Maintaining the right balance between patient demand and doctor supply is essential.
+
+---
+
+# Key Product Insights
+
+From a Product Manager's perspective, Practo is much more than an appointment-booking platform.
+
+It is a multi-sided marketplace where trust, convenience, and network effects drive long-term growth.
+
+Its business strength comes from serving multiple stakeholders while creating value for each of them.
+
+---
+
+## Product Management Lesson #3
+
+A great product isn't simply a collection of features.
+
+It's a system where users, partners, and the business all create value for one another.
+
+Practo's marketplace model demonstrates how solving problems for multiple stakeholders can create sustainable competitive advantage.
