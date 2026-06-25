@@ -1,4 +1,4 @@
-# Day 01 — Practo Case Study
+# 🩺 Day 01 — Practo Product Case Study
 
 > **90 Days of Product Management Case Studies**
 
@@ -6,91 +6,89 @@
 
 # Executive Summary
 
-For the first case study in this series, I chose **Practo**, one of India's largest digital healthcare platforms.
+For the first case study in my 90-day Product Management challenge, I chose **Practo**, one of India's leading digital healthcare platforms.
 
-As someone transitioning from healthcare research into product management, I wanted to begin with a product that sits at the intersection of technology and healthcare.
+Practo has transformed the way millions of people discover doctors, book appointments, consult online, order medicines, and manage their healthcare journey.
 
-Rather than reviewing Practo as a user, this case study analyzes it from a Product Manager's perspective.
+This case study analyzes Practo from a Product Manager's perspective—not just as an app, but as a platform solving complex healthcare access problems across multiple stakeholders.
 
 ---
 
 # About Practo
 
-Founded in 2008, Practo started by solving a simple but important problem:
+* **Founded:** 2008
+* **Founders:** Shashank ND & Abhinav Lal
+* **Headquarters:** Bengaluru, India
 
-**Finding and booking a trusted doctor should be easy.**
+Practo began with a simple idea:
 
-Today, Practo has evolved into a healthcare platform offering:
+> Healthcare should be easier to access.
 
-* Doctor discovery
-* Appointment booking
-* Online consultations
-* Digital prescriptions
-* Medicine delivery
-* Health records
-* Diagnostic services
+Initially focused on helping clinics digitize appointment management, the company gradually evolved into a comprehensive healthcare ecosystem connecting patients, doctors, hospitals, clinics, diagnostic centers, and pharmacies.
 
----
+Today, Practo offers:
 
-# Problem Statement
-
-Healthcare access in India has traditionally been fragmented.
-
-Patients often struggle with:
-
-* Finding trusted doctors
-* Long waiting times
-* Lack of transparent reviews
-* Difficulty booking appointments
-* Poor access to specialists in smaller cities
-* Maintaining medical records
-
-Practo attempts to simplify this journey through a single digital platform.
+* Doctor Discovery
+* Appointment Booking
+* Online Video Consultation
+* Digital Prescriptions
+* Medicine Ordering
+* Diagnostic Test Booking
+* Health Records
+* Practice Management Software (Practo Ray)
 
 ---
 
 # Why I Selected Practo
 
-I selected Practo because it demonstrates how technology can simplify complex healthcare journeys while serving multiple stakeholders:
+Coming from a healthcare research background, I wanted my first case study to focus on a product that combines healthcare, technology, and user experience.
 
-* Patients
-* Doctors
-* Hospitals
-* Clinics
-* Diagnostic Centers
+Practo is particularly interesting because it serves multiple user groups while solving one of healthcare's biggest challenges: improving access.
 
-Understanding products like Practo helps build stronger product thinking for healthcare technology.
+Studying Practo also provides valuable insights into marketplace businesses, trust-building, digital health adoption, and platform strategy.
 
 ---
 
-# What I'll Analyze
+# Problem Statement
 
-Over the next sections, I'll explore:
+Healthcare in India has traditionally been fragmented.
 
+Patients often struggle with:
+
+* Finding trusted doctors
+* Comparing specialists
+* Booking appointments
+* Long waiting times
+* Managing prescriptions
+* Maintaining health records
+* Accessing specialists in smaller cities
+
+Practo attempts to simplify this fragmented journey by providing a single digital platform for discovering, booking, consulting, and managing healthcare services.
+
+---
+
+# Objectives of this Case Study
+
+Throughout this analysis, I'll explore:
+
+* Product Vision
 * User Personas
 * User Journey
-* Core Features
+* Jobs To Be Done (JTBD)
+* Product Features
 * Business Model
+* Revenue Streams
 * Product Metrics
 * SWOT Analysis
-* Competitor Comparison
-* UX Review
-* Growth Strategy
-* Opportunities for Improvement
+* Competitor Analysis
+* UX Evaluation
+* Product Opportunities
 * Product Recommendations
 
 ---
 
-## Key Takeaway
+> **Product Management Lesson #1**
 
-Every successful product begins by solving one meaningful user problem.
+The best products don't start by building more features.
 
-Practo didn't start as a super app.
-
-It started by making healthcare more accessible.
-
-That's the product lesson I want to explore throughout this case study.
-
----
-
-*This is Day 1 of my 90-Day Product Management Case Study Challenge.*
+They start by solving one meaningful user problem really well.
