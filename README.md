@@ -1,5 +1,7 @@
 # product-management-case-studies
 Building product thinking in public through 90 real-world case studies across Healthcare, AI, SaaS, and Consumer products. Documenting user research, product strategy, UX, metrics, and PM frameworks while building Aaroh.
+
+
 Hi, I'm Gaurav.
 
 I'm transitioning into Product Management after working in Healthcare Research, Psychology, and Integrative Medicine. Through my experience, I became fascinated by how great products solve meaningful problems and create real impact for users.
