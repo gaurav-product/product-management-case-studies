@@ -1294,7 +1294,7 @@ If you have feedback or a different perspective, I'd love to connect and discuss
 
 Hi, I'm **Gaurav Kumar Singh**.
 
-I'm transitioning into Product Management from a background in Healthcare Research, Psychology, Yoga Therapy, and Integrative Medicine.
+I'm transitioning into Product Management from a background in Healthcare Research, Psychology, and Integrative Medicine.
 
 This repository is part of my **90-Day Product Management Case Study Challenge**, where I'm analyzing real-world products to strengthen my product thinking and build in public.
 
