@@ -8,7 +8,15 @@
 **Analysis Type:** Product Management Case Study  
 **Author:** Gaurav Kumar Singh
 <img width="1536" height="1024" alt="practo-cover png" src="https://github.com/user-attachments/assets/eedc9283-d605-4b8b-977c-da07c38e9eb2" />
-
+| Product | Practo |
+|----------|---------|
+| Industry | HealthTech |
+| Country | India |
+| Founded | 2008 |
+| Business Model | B2C Marketplace + B2B SaaS |
+| Stage | Mature Growth |
+| Platform | Android, iOS, Web |
+| Case Study | Day 01 / 90 |
 ---
 
 ## Table of Contents
@@ -48,6 +56,14 @@ What started in 2008 as a solution to simplify appointment management has evolve
 For this first case study in my 90-Day Product Management Challenge, I chose Practo because it demonstrates how technology can simplify a highly fragmented industry while balancing the needs of multiple stakeholders.
 
 This case study evaluates Practo from a Product Manager's perspective by analyzing its users, business model, product strategy, growth opportunities, and future roadmap.
+
+## 📌 Key Highlights
+
+- 🏥 One of India's leading HealthTech platforms
+- 👨‍⚕️ Connects Patients, Doctors, Hospitals & Labs
+- 📱 Marketplace + SaaS Business Model
+- 🤖 Huge opportunity for AI-powered healthcare
+- 🎯 Focus of this case study: Product Strategy & Growth
 
 About Practo
 Category	Details
@@ -1272,3 +1288,18 @@ Each day, I analyze one product to strengthen my product thinking by exploring u
 Follow my journey as I document **90 real-world product case studies** across Healthcare, AI, SaaS, and Consumer Apps.
 
 If you have feedback or a different perspective, I'd love to connect and discuss. Every conversation helps me become a better Product Manager.
+---
+
+## 👋 About Me
+
+Hi, I'm **Gaurav Kumar Singh**.
+
+I'm transitioning into Product Management from a background in Healthcare Research, Psychology, Yoga Therapy, and Integrative Medicine.
+
+This repository is part of my **90-Day Product Management Case Study Challenge**, where I'm analyzing real-world products to strengthen my product thinking and build in public.
+
+📌 GitHub: https://github.com/gaurav-product
+
+📌 LinkedIn: https://www.linkedin.com/in/gaurav-singh-986b40197/
+
+⭐ If you found this case study valuable, feel free to connect or share your feedback.
