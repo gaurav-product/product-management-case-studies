@@ -1,6 +1,4 @@
-.
-
-🩺 Day 01 — Practo Product Case Study
+Day 01 — Practo Product Case Study
 
 90 Days of Product Management Case Studies
 
