@@ -1,6 +1,42 @@
-Day 01 — Practo Product Case Study
+# 🩺 Day 01 — Practo Product Case Study
 
-90 Days of Product Management Case Studies
+> **90 Days of Product Management Case Studies**
+
+**Product:** Practo  
+**Industry:** HealthTech  
+**Country:** India  
+**Analysis Type:** Product Management Case Study  
+**Author:** Gaurav Kumar Singh
+
+---
+
+## Table of Contents
+
+1. Executive Summary
+2. About Practo
+3. Industry Overview
+4. Problem Statement
+5. Product Vision
+6. Stakeholders
+7. Target Users
+8. User Personas
+9. Jobs To Be Done (JTBD)
+10. Customer Journey
+11. Core Features
+12. Business Model
+13. Revenue Streams
+14. Product Metrics
+15. SWOT Analysis
+16. Competitor Analysis
+17. UX Review
+18. Product Opportunities
+19. Product Roadmap
+20. Recommendations
+21. Key Learnings
+22. Conclusion
+23. References
+
+---
 
 Executive Summary
 
