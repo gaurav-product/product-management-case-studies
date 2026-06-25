@@ -142,7 +142,7 @@ Receive medicine orders
 Deliver prescriptions
 Improve customer retention
 Product Ecosystem
-                     Patients
+                      Patients
                          │
         ┌────────────────┼────────────────┐
         │                │                │
