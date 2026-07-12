@@ -1,0 +1,39 @@
+{
+  "product_name": "Linear",
+  "jobs": [
+    {
+      "job_id": "github-linear",
+      "destination": "github",
+      "product_name": "Linear",
+      "artifact_type": "readme_markdown",
+      "artifact_path": "C:\\Users\\gaura\\OneDrive\\Documents\\GitHub\\product-management-case-studies\\automation\\output\\README.md",
+      "status": "prepared",
+      "created_at": "2026-07-11T18:58:43.620042+00:00",
+      "metadata": {
+        "section_count": 26,
+        "diagram_count": 9,
+        "source_readme_generated_at": "2026-07-11T18:58:43.617143+00:00"
+      }
+    },
+    {
+      "job_id": "linkedin-linear",
+      "destination": "linkedin",
+      "product_name": "Linear",
+      "artifact_type": "linkedin_post",
+      "artifact_path": "C:\\Users\\gaura\\OneDrive\\Documents\\GitHub\\product-management-case-studies\\automation\\output\\content.md",
+      "status": "prepared",
+      "created_at": "2026-07-11T18:58:43.620094+00:00",
+      "metadata": {
+        "title": "Linear: A Product Management Case Study",
+        "hashtag_count": 10,
+        "word_count": 399,
+        "source_content_generated_at": "2026-07-11T18:58:43.619050+00:00"
+      }
+    }
+  ],
+  "metadata": {
+    "publisher_count": 2,
+    "job_count": 2,
+    "generated_at": "2026-07-11T18:58:43.620109+00:00"
+  }
+}
