@@ -28,24 +28,31 @@
 ## 4. Table of Contents
 
 **Foundations**
+
 1. Cover · 2. Repository Metadata · 3. Badges · 4. Table of Contents · 5. Executive Summary · 6. Product Overview · 7. Company Background · 8. Product Timeline · 9. Vision & Mission · 10. Problem Statement
 
 **Market & Strategy**
+
 11. Market Research · 12. Industry Analysis · 13. TAM/SAM/SOM · 14. Competitor Analysis · 15. SWOT · 16. Porter's Five Forces · 17. Business Model Canvas · 18. Revenue Model
 
 **Users & Experience**
+
 19. Target Users · 20. Personas · 21. JTBD · 22. User Journey · 23. User Flow · 24. Information Architecture · 25. UX Audit · 26. UI Audit · 27. Accessibility
 
 **Product & Growth**
+
 28. Feature Breakdown · 29. AI Capabilities · 30. Product Metrics · 31. North Star Metric · 32. Product Analytics · 33. AARRR · 34. HEART · 35. Growth Strategy · 36. Growth Loops · 37. Network Effects · 38. Product Strategy · 39. Monetization · 40. Trust & Safety
 
 **Technical**
+
 41. Technical Architecture · 42. Data Flow · 43. API Ecosystem · 44. Privacy & Security
 
 **Strategy & Planning**
+
 45. Pain Points · 46. Opportunity Mapping · 47. RICE · 48. MoSCoW · 49. Kano · 50. Feature Proposal · 51. PRD · 52. Wireframes · 53. Rollout Plan · 54. A/B Testing · 55. KPI Dashboard · 56. Product Roadmap · 57. Risks & Mitigation · 58. Future Vision
 
 **Closing**
+
 59. PM Lessons · 60. PM Interview Questions · 61. References · 62. About the Author · 63. License · 64. Self Review · 65. Appendix
 
 ## 5. Executive Summary
@@ -122,20 +129,20 @@ India's digital health category has consolidated around a small number of well-c
 |---|---|---|---|
 | TAM | India digital health market (telemedicine + e-pharmacy + diagnostics + digital records) | $14.5B (2024) per Grand View Research; conflicting estimates as low as $3.1B for telemedicine-only scope exist (see §65) | Third-party market research, scope-dependent |
 | SAM | Urban and semi-urban Indian smartphone users seeking integrated consult+pharmacy+diagnostics in one app | Not publicly disclosed by Apollo | Inferred from Apollo's target demographic and digital infrastructure (5G reaching 84%+ of citizens per government data) |
-| SOM | Apollo 24|7's realistically addressable share given current GMV (~₹525-528 Cr/quarter), user base (~46M claimed), and Apollo brand distribution | Not publicly disclosed | Inferred from GMV and user figures in §30 |
+| SOM | Apollo 24\|7's realistically addressable share given current GMV (~₹525-528 Cr/quarter), user base (~46M claimed), and Apollo brand distribution | Not publicly disclosed | Inferred from GMV and user figures in §30 |
 
 All figures in this section are third-party estimates or inferences, not Apollo/AHEL-disclosed numbers.
 
 ## 14. Competitor Analysis
 
-| Dimension | Apollo 24|7 | Tata 1mg | PharmEasy | Practo |
+| Dimension | Apollo 24\|7 | Tata 1mg | PharmEasy | Practo |
 |---|---|---|---|---|
 | Value proposition | Hospital-backed, integrated consult + pharmacy + diagnostics | Research-forward pharmacy with strong medical content/UX | Broad reach incl. Tier 2/3, subscription refills | Doctor discovery + video consult, lighter pharmacy focus |
 | Parent / backing | Apollo Hospitals (public, 43-yr-old healthcare brand) | Tata Group | Independent (post-distress restructuring) | Independent |
 | GMV share (2023 estimate) | ~15-18% | ~31% (market leader) | ~15% (down from ~33% in 2022) | Not covered in GMV rankings (consult-led model) |
 | Core strength | Direct pipe into Apollo hospital data/doctors; AI Clinical Intelligence Engine | Medically-accurate content, 40M+ monthly users claimed | Tier 2/3 reach, chronic-care subscriptions | Video consult UX, practice-management software for doctors |
 | Delivery speed | 19-minute pilot in 4 metros (fastest dedicated claim found) | Standard same-day/next-day | Same-day, broad pincode coverage | N/A (not primarily a delivery business) |
-| Weakness | Two-brand confusion (Apollo Pharmacy offline vs 24|7 app); demerger-related uncertainty | Less hospital-grade clinical depth | Financial distress history dents trust | Weak pharmacy/diagnostics integration vs. bundled rivals |
+| Weakness | Two-brand confusion (Apollo Pharmacy offline vs 24\|7 app); demerger-related uncertainty | Less hospital-grade clinical depth | Financial distress history dents trust | Weak pharmacy/diagnostics integration vs. bundled rivals |
 
 **Strategic insight:** Apollo 24|7's genuine edge is not GMV share — on that metric it trails Tata 1mg by a wide margin. Its edge is downstream trust and clinical depth: a consultation on Apollo 24|7 can be backed by an AI system trained on four decades of real Apollo hospital outcomes, which a standalone e-pharmacy simply has no way to replicate without acquiring hospital assets of its own.
 
@@ -163,7 +170,7 @@ All figures in this section are third-party estimates or inferences, not Apollo/
 
 ## 17. Business Model Canvas
 
-| Block | Apollo 24|7 |
+| Block | Apollo 24\|7 |
 |---|---|
 | Key Partners | Apollo Hospitals network, Google Cloud (Clinical Intelligence Engine / MedLM), Keimed (pharma distribution, post-merger), Advent International (investor), 100+ diagnostic labs |
 | Key Activities | E-pharmacy fulfillment, telehealth platform operations, AI clinical decision-support R&D, regulatory compliance, demerger/listing execution |
@@ -323,7 +330,7 @@ Apollo/AHEL does not publish platform-wide usage analytics (session frequency, f
 
 ## 34. HEART
 
-| Dimension | Apollo 24|7 application |
+| Dimension | Apollo 24\|7 application |
 |---|---|
 | Happiness | Post-consultation satisfaction ratings, CIE-assisted diagnosis confidence (doctor-reported) |
 | Engagement | Consultations booked, medicine reorders, lab tests booked per active user |
@@ -550,11 +557,11 @@ MIT License. This case study is independent analysis for educational and portfol
 
 | Data point | Source A | Source B | Source C | Resolution |
 |---|---|---|---|---|
-| Apollo 24|7 total users | 46M+ (AHEL Q3 FY26 investor commentary) | "25 million and growing" (Google Play Store listing) | — | Not reconciled; investor figure is more recent and likely more authoritative, but the app-store figure's staleness is itself notable and unexplained |
+| Apollo 24\|7 total users | 46M+ (AHEL Q3 FY26 investor commentary) | "25 million and growing" (Google Play Store listing) | — | Not reconciled; investor figure is more recent and likely more authoritative, but the app-store figure's staleness is itself notable and unexplained |
 | India digital health/telemedicine market size (2024-2025) | $14.5B digital health, 2024 (Grand View Research) | $4.15B telemedicine, 2025 (VynZ Research) | $3.10B telemedicine, 2024 (IMARC Group) | Scope-dependent ("digital health" vs. "telemedicine" vs. "telehealth" are defined differently across firms); all reported as-is, not reconciled |
-| Apollo 24|7 headquarters | Chennai (CB Insights, Crunchbase context) | Hyderabad (Tracxn) | — | Not reconciled; registered address appears Chennai-linked, operational HQ sometimes cited as Hyderabad |
+| Apollo 24\|7 headquarters | Chennai (CB Insights, Crunchbase context) | Hyderabad (Tracxn) | — | Not reconciled; registered address appears Chennai-linked, operational HQ sometimes cited as Hyderabad |
 | CIRCLE membership annual price | ₹349/12 months (Freekaamaal, 2022) | ₹199/12 months (Apollo247 blog, 2023) | — | Both sources dated 2022-2023; current live pricing not independently verified in this pass |
-| Digital segment profitability (FY26) | Q3 FY26 digital cash loss ~₹29 Cr (narrowest on record, still a loss) | FY26 full-year "Digital Health & Pharmacy" segment profit +254% YoY | — | The FY26 profit figure covers the blended segment (including already-profitable offline pharmacy distribution), not Apollo 24|7's online platform specifically, which remains loss-narrowing rather than profitable as of the same period |
+| Digital segment profitability (FY26) | Q3 FY26 digital cash loss ~₹29 Cr (narrowest on record, still a loss) | FY26 full-year "Digital Health & Pharmacy" segment profit +254% YoY | — | The FY26 profit figure covers the blended segment (including already-profitable offline pharmacy distribution), not Apollo 24\|7's online platform specifically, which remains loss-narrowing rather than profitable as of the same period |
 | GMV e-pharmacy market share | Apollo/Flipkart/Netmeds each ~15-18% (Redseer via Business Standard, Sept 2023) | No more recent (2025-2026) comparable breakdown located | — | Figure is dated; flagged as a research limitation rather than presented as current |
 
 ### B. Corrections Applied During Verification Pass
