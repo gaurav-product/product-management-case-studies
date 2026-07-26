@@ -28,26 +28,15 @@
 
 ## 4. Table of Contents
 
-**Foundations**
-1. Cover · 2. Repository Metadata · 3. Badges · 4. Table of Contents · 5. Executive Summary · 6. Product Overview · 7. Company Background · 8. Product Timeline · 9. Vision & Mission · 10. Problem Statement
-
-**Market & Strategy**
-11. Market Research · 12. Industry Analysis · 13. TAM/SAM/SOM · 14. Competitor Analysis · 15. SWOT · 16. Porter's Five Forces · 17. Business Model Canvas · 18. Revenue Model
-
-**Users & Experience**
-19. Target Users · 20. Personas · 21. JTBD · 22. User Journey · 23. User Flow · 24. Information Architecture · 25. UX Audit · 26. UI Audit · 27. Accessibility
-
-**Product & Growth**
-28. Feature Breakdown · 29. AI Capabilities · 30. Product Metrics · 31. North Star Metric · 32. Product Analytics · 33. AARRR · 34. HEART · 35. Growth Strategy · 36. Growth Loops · 37. Network Effects · 38. Product Strategy · 39. Monetization · 40. Trust & Safety
-
-**Technical**
-41. Technical Architecture · 42. Data Flow · 43. API Ecosystem · 44. Privacy & Security
-
-**Strategy & Planning**
-45. Pain Points · 46. Opportunity Mapping · 47. RICE · 48. MoSCoW · 49. Kano · 50. Feature Proposal · 51. PRD · 52. Wireframes · 53. Rollout Plan · 54. A/B Testing · 55. KPI Dashboard · 56. Product Roadmap · 57. Risks & Mitigation · 58. Future Vision
-
-**Closing**
-59. PM Lessons · 60. PM Interview Questions · 61. References · 62. About the Author · 63. License · 64. Self Review · 65. Appendix
+| Part | Sections |
+|---|---|
+| **Foundations** | [1. Cover](#1-cover) · [2. Repository Metadata](#2-repository-metadata) · [3. Badges](#3-badges) · [4. Table of Contents](#4-table-of-contents) · [5. Executive Summary](#5-executive-summary) · [6. Product Overview](#6-product-overview) · [7. Company Background](#7-company-background) · [8. Product Timeline](#8-product-timeline) · [9. Vision & Mission](#9-vision--mission) · [10. Problem Statement](#10-problem-statement) |
+| **Market & Strategy** | [11. Market Research](#11-market-research) · [12. Industry Analysis](#12-industry-analysis) · [13. TAM / SAM / SOM](#13-tam--sam--som) · [14. Competitor Analysis](#14-competitor-analysis) · [15. SWOT](#15-swot) · [16. Porter's Five Forces](#16-porters-five-forces) · [17. Business Model Canvas](#17-business-model-canvas) · [18. Revenue Model](#18-revenue-model) |
+| **Users & Experience** | [19. Target Users](#19-target-users) · [20. Personas](#20-personas) · [21. Jobs To Be Done](#21-jobs-to-be-done) · [22. User Journey](#22-user-journey) · [23. User Flow](#23-user-flow) · [24. Information Architecture](#24-information-architecture) · [25. UX Audit](#25-ux-audit) · [26. UI Audit](#26-ui-audit) · [27. Accessibility](#27-accessibility) |
+| **Product & Growth** | [28. Feature Breakdown](#28-feature-breakdown) · [29. AI Capabilities](#29-ai-capabilities) · [30. Product Metrics](#30-product-metrics) · [31. North Star Metric](#31-north-star-metric) · [32. Product Analytics](#32-product-analytics) · [33. AARRR](#33-aarrr-advertiser-funnel) · [34. HEART](#34-heart-consumer-experience) · [35. Growth Strategy](#35-growth-strategy) · [36. Growth Loops](#36-growth-loops) · [37. Network Effects](#37-network-effects) · [38. Product Strategy](#38-product-strategy) · [39. Monetisation](#39-monetisation) · [40. Trust & Safety](#40-trust--safety) |
+| **Technical** | [41. Technical Architecture](#41-technical-architecture) · [42. Data Flow](#42-data-flow) · [43. API Ecosystem](#43-api-ecosystem) · [44. Privacy & Security](#44-privacy--security) |
+| **Strategy & Planning** | [45. Pain Points](#45-pain-points) · [46. Opportunity Mapping](#46-opportunity-mapping) · [47. RICE](#47-rice-prioritisation) · [48. MoSCoW](#48-moscow) · [49. Kano](#49-kano-analysis) · [50. Feature Proposal](#50-feature-proposal--baseline) · [51. PRD](#51-prd--baseline) · [52. Wireframes](#52-wireframes) · [53. Rollout Plan](#53-rollout-plan) · [54. A/B Testing](#54-ab-testing-plan) · [55. KPI Dashboard](#55-kpi-dashboard) · [56. Product Roadmap](#56-product-roadmap) · [57. Risks & Mitigation](#57-risks--mitigation) · [58. Future Vision](#58-future-vision) |
+| **Closing** | [59. PM Lessons](#59-pm-lessons) · [60. PM Interview Questions](#60-pm-interview-questions) · [61. References](#61-references) · [62. About the Author](#62-about-the-author) · [63. License](#63-license) · [64. Self Review](#64-self-review) · [65. Appendix](#65-appendix) |
 
 ## 5. Executive Summary
 
@@ -60,7 +49,7 @@ That is the investor-facing story, and it is strong. The advertiser-facing story
 Three things happened between January and March 2026:
 
 1. **The ruler changed.** On January 12, 2026, Meta removed the 7-day and 28-day view-through attribution windows. The default reporting column was reworked to combine link-click-only click-through conversions with a 1-day "engage-through" column, and the qualifying engagement threshold for a video view was shortened from 10 seconds to 5 seconds.
-2. **The engine changed.** Andromeda — Meta's AI ad-retrieval layer — completed global rollout in early 2026, and in March 2026 delivery shifted further toward outcome-based optimization that predicts downstream conversions rather than the proxy metric the advertiser selected.
+2. **The engine changed.** Andromeda — Meta's AI ad-retrieval layer — completed global rollout in early 2026, and in March 2026 delivery shifted further toward outcome-based optimisation that predicts downstream conversions rather than the proxy metric the advertiser selected.
 3. **The price changed.** Meta's own reported average price per ad rose 12% globally and 14% in US/Canada in Q1 2026.
 
 Any advertiser observing a change in reported ROAS after March 2026 therefore cannot decompose it into (a) genuine delivery improvement, (b) attribution reclassification, or (c) auction price inflation — because all three moved at once, and Meta is the only party holding the data needed to separate them. Meta both sets the price and grades the homework.
@@ -75,7 +64,7 @@ This is not an accusation of bad faith. It is a **product design problem with an
 - **The signal base is being cut in Europe while being widened elsewhere.** From January 2026, EU users can choose a less-personalised, contextual-signal experience under a DMA commitment accepted by the European Commission on December 8, 2025, following a €200 million fine in April 2025. Simultaneously, from December 16, 2025, Meta began using Meta AI conversation data for ad personalisation everywhere *except* the EU, UK and South Korea, with no user opt-out. Meta is running two structurally different targeting regimes and reporting one blended set of numbers.
 - **India is the volume engine and the WhatsApp proving ground.** Asia-Pacific impressions grew 23% in Q1 2026 against 13% in US/Canada, while US/Canada price per ad rose 14%. WhatsApp Status ads and Promoted Channels rolled out with Indian anchor advertisers, and Google and Meta together took 64% of India's ₹947 billion digital ad market in 2025 per FICCI-EY.
 
-**The proposal (§50):** *Baseline* — a two-surface measurement-integrity feature comprising **Baseline Timeline**, an immutable, account-scoped provenance log of every platform-side change that affected delivery or reporting, rendered as an overlay on the performance chart; and **Baseline Lift**, an always-on account-level holdout that reports incremental conversions alongside attributed conversions and survives attribution and model changes. RICE score 5.6, ranked first of six candidates. The honest caveat, stated in §57: this feature reduces Meta's reported ROAS, and that is the reason it does not already exist.
+**The proposal (§50):** *Baseline* — a two-surface measurement-integrity feature comprising **Baseline Timeline**, an immutable, account-scoped provenance log of every platform-side change that affected delivery or reporting, rendered as an overlay on the performance chart; and **Baseline Lift**, an always-on account-level holdout that reports incremental conversions alongside attributed conversions and survives attribution and model changes. aRICE score 5.69 — sixth of seven candidates on raw score, and selected anyway; §47 states that override rather than re-engineering the numbers to fit. The honest caveat, stated in §57: this feature reduces Meta's reported ROAS, and that is the reason it does not already exist.
 
 **One-line takeaway:** When a platform rebuilds its delivery engine and rewrites its measurement definitions in the same quarter, it is not shipping a performance improvement — it is shipping an unfalsifiable claim, and the PM lesson is that measurement changes must be versioned as rigorously as the models they measure.
 
@@ -152,13 +141,13 @@ timeline
     2026-07-29 : Q2 2026 results due — three days after this case study publishes
 ```
 
-**Reading the timeline as a PM:** the interesting cluster is 2025-11 through 2026-03. In five months Meta published its largest-ever recommendation model, won an existential antitrust case, conceded a European data-use commitment, opened a new global targeting signal, deleted two attribution windows, and completed a delivery-engine migration. Four of those six are measurement- or signal-affecting. The system an advertiser was optimising against in October 2025 does not exist in April 2026, and no versioned record of the transition was given to the advertiser.
+**Reading the timeline as a PM:** the interesting cluster is 2025-11 through 2026-03. In five months Meta published its largest-ever recommendation model, won an existential antitrust case, conceded a European data-use commitment, opened a new global targeting signal, deleted two attribution windows, and completed a delivery-engine migration. Five of those six touch measurement, signal or delivery; only the antitrust win does not. The system an advertiser was optimising against in October 2025 does not exist in April 2026, and no versioned record of the transition was given to the advertiser.
 
 ## 9. Vision & Mission
 
 **Meta's stated company mission:** to give people the power to build community and bring the world closer together.
 
-**The advertising product's operating vision, as articulated by leadership:** an advertiser states a business objective, connects a payment method, and receives results — with creative, targeting, and measurement handled by Meta's systems. Zuckerberg has described this as a <em>redefinition of the category of advertising</em>. Press reporting in mid-2025 indicated an internal ambition to reach fully automated ad creation by the end of 2026.
+**The advertising product's operating vision, as articulated by leadership:** an advertiser states a business objective, connects a payment method, and receives results — with creative, targeting, and measurement handled by Meta's systems. Zuckerberg has described this as a *redefinition of the category of advertising*. Press reporting in mid-2025 indicated an internal ambition to reach fully automated ad creation by the end of 2026.
 
 **My reading of the actual strategy, stated plainly:** Meta is converting advertising from a *skill market* into a *utility market*. In a skill market, returns accrue to the operator who understands the platform best; margin sits with agencies, media buyers, and tooling vendors. In a utility market, the advertiser supplies capital and intent, the platform supplies everything else, and the platform captures the margin previously earned by human expertise. The AI stack is the mechanism. Advantage+ defaults are the distribution. The measurement opacity described in §5 is not the goal, but it is the condition that makes the transition frictionless — because an advertiser who cannot independently verify performance has no evidential basis on which to resist automation.
 
@@ -184,7 +173,7 @@ timeline
 
 ## 11. Market Research
 
-**Global digital advertising, 2026 positioning.** Third-party forecasting (eMarketer, April 2026) projects Meta at $243.46 billion in 2026 advertising revenue against Google's $239.54 billion — the first year Meta would lead, on growth of roughly 24.1% versus Google's 11.9%. Meta, Google and Amazon together are projected at 62.3% of global digital ad spend in 2026, up from 59.9% in 2025. These are forecasts, not results; §14 and `assumptions.md` treat them accordingly.
+**Global digital advertising, 2026 positioning.** Third-party forecasting (eMarketer, April 2026) projects Meta at $243.46 billion in 2026 advertising revenue against Google's $239.54 billion — the first year Meta would lead, on growth of roughly 24.1% versus Google's 11.9%. Meta, Google and Amazon together are projected at 62.3% of global digital ad spend in 2026, up from 59.9% in 2025. These are forecasts, not results; §14 and `assumptions.md` treat them accordingly. **Scope caveat, and it matters to the crossover claim:** $239.54 billion growing at 11.9% implies a 2025 Google base near $214 billion, which is not the $294.7 billion of reported 2025 Google advertising revenue cited in §14. The two series are measured on different bases, so the overtake holds only inside eMarketer's own definitions and should not be read against reported advertising revenue. The conflict is logged in §65.
 
 **What is driving Meta's relative growth, in order of my confidence:**
 
@@ -219,7 +208,7 @@ timeline
 
 Estimates below are drawn from published third-party market research and disclosed company figures. Market-sizing sources disagree materially; all derived figures are labelled and logged in `assumptions.md`.
 
-**TAM — global digital advertising.** Reported and forecast totals vary by methodology and by whether retail media and CTV are included. Using the platform-share framing: Meta, Google and Amazon are projected at 62.3% of global digital ad spend in 2026. Working backwards from the eMarketer projection of $243.46 billion for Meta gives a global digital ad market in the region of $1.05–1.15 trillion for 2026 (`ASSUMPTION — VALIDATION REQUIRED` — derived, not published; the arithmetic depends on the three-company share figure and on Google and Amazon projections that are themselves forecasts).
+**TAM — global digital advertising.** Reported and forecast totals vary by methodology and by whether retail media and CTV are included. Using the platform-share framing: Meta, Google and Amazon are projected at 62.3% of global digital ad spend in 2026. Working backwards from the eMarketer projection of $243.46 billion for Meta implies a global digital ad market of roughly $0.89–0.92 trillion for 2026 — that is, (Meta $243.46B + Google $239.54B + Amazon at an assumed $70–90B) ÷ 0.623 (`ASSUMPTION — VALIDATION REQUIRED` — derived, not published; the arithmetic depends on the three-company share figure and on Google and Amazon projections that are themselves forecasts).
 
 **SAM — paid social plus messaging inventory reachable by Meta's stack.** Meta's own addressable surface is bounded by its logged-in base of 3.56 billion daily active people and the inventory it can create without degrading engagement. The binding constraint is not demand; it is ad load. Meta explicitly cited ad-load optimisation as an impression-growth driver in Q1 2026, and Threads and WhatsApp are being deliberately supply-throttled while formats are optimised. SAM is therefore better modelled as *engagement-hours × sustainable ad load × clearing price* than as a share of a market total.
 
@@ -589,13 +578,13 @@ flowchart LR
 
 | Metric | Value | Interpretation |
 |---|---|---|
-| Revenue | $56.31B, +33% YoY (+29% cc) | Beat the top of $53.5–56.5B guidance |
+| Revenue | $56.31B, +33% YoY (+29% cc) | Landed near the top of the $53.5–56.5B guidance range |
 | Ad impressions | +19% YoY | Supply growth: engagement, users, ad load |
 | Average price per ad | +12% YoY globally; +14% US/Canada | Yield — and advertiser cost |
 | Family DAP | 3.56B (March 2026), +4% YoY | First sequential decline in company history |
 | FoA revenue | $55.91B | Core business |
 | FoA other revenue | $885M, +74% | WhatsApp paid messaging, subscriptions |
-| Income from operations | $22.87B, +30% | |
+| Income from operations | $22.87B, +30% | Operating leverage held despite record capex |
 | Net income | $26.77B, +61% | Includes $8.03B one-time tax benefit |
 | Diluted EPS | $10.44 | Would be $3.13 lower excluding the tax benefit |
 | Capex | $19.84B in the quarter | FY guidance $125–145B |
@@ -876,7 +865,7 @@ flowchart LR
 | BEUC challenge | March 2026 analysis argued the flow still fails to present less-personalised ads at parity and imposes ad breaks on those who choose it |
 | Meta AI data for ads | Effective December 16, 2025. No opt-out. Excludes EU, UK, South Korea. Sensitive categories excluded from targeting. Pre-December conversations excluded |
 | FTC complaints | 36 consumer and privacy organisations urged the FTC to halt the Meta AI ads plan, citing absence of opt-in consent |
-| FTC v. Meta (antitrust) | Boasberg ruled for Meta November 18, 2025: <em>Meta holds no monopoly in the relevant market</em>. FTC appealed to the DC Circuit |
+| FTC v. Meta (antitrust) | Boasberg ruled for Meta November 18, 2025: *Meta holds no monopoly in the relevant market*. FTC appealed to the DC Circuit |
 | WhatsApp targeting boundary | Personal messages, calls and group membership excluded from ad targeting; phone numbers not shared with advertisers; targeting uses country/city, language, channels followed, ad interactions, and Accounts Center linkage |
 | India DPDP Act | Consent and data-processing obligations shaping the Indian advertising signal environment |
 
@@ -986,7 +975,7 @@ Scores are my own estimates and are explicitly labelled as such. Reach is expres
 
 **The Kano insight that changes how I would pitch this internally.** Provenance and metric versioning are **Must-be** features. Must-be features do not increase satisfaction when present — they only remove dissatisfaction. That means §50 will not produce a measurable increase in advertiser NPS or spend in the quarter it ships, and any PM promising that will fail their own success criteria. The correct business case is *churn and narrative risk reduction*, measured over four or more quarters, not spend uplift. Pitching a Must-be feature as a growth feature is the fastest way to get it cancelled at the first review.
 
-## 50. Feature Proposal — **Baseline**
+## 50. Feature Proposal — Baseline
 
 **Name:** Baseline
 **One-line:** A measurement system of record for Meta Ads: an immutable log of every platform-side change that affected your account, plus an always-on holdout that tells you what your ads actually caused.
@@ -1244,7 +1233,7 @@ The second panel is the whole point of the feature: it says, in one sentence, *y
 - **Guardrails:** total ticket volume must not rise (Timeline could generate its own questions); advertiser retention must not fall
 
 **Test 3 — Attribution Ratio disclosure effect on spend (the commercially decisive test)**
-- **Design:** among Lift beta accounts, randomise whether the Attribution Ratio is displayed prominently or available only on a secondary tab. 90-day observation, minimum 800 accounts per arm
+- **Design:** among Phase 5 limited-GA accounts (§53) — the 100-account Phase 4 beta cannot power this test — randomise whether the Attribution Ratio is displayed prominently or available only on a secondary tab. 90-day observation, minimum 800 accounts per arm, which means this test gates broad availability rather than beta exit
 - **Primary metric:** net change in account spend
 - **Secondary:** reallocation within account (prospecting versus retargeting share); 90-day retention; enrolment in incrementality tooling
 - **Hypothesis (stated before the result, as it must be):** prominent disclosure produces a short-term spend decrease of 3–8% in the first 30 days, followed by recovery and reallocation toward prospecting, with net 90-day spend within ±3% of control and materially higher retention
@@ -1520,6 +1509,7 @@ Attempt to reconcile Meta's reported +12% price per ad against the practitioner 
 | **Timing of full ad automation** | WSJ reporting (2025): end of 2026 target | Practitioners quoted in April 2026 trade press: materially further off | **Not resolved, and the disagreement is itself informative.** Reported internal ambition versus practitioner assessment of shipped capability |
 | **GEM performance lift** | Meta: ~5% Instagram, ~3% Facebook Feed conversion lift | No independent replication exists | **Unfalsifiable externally.** Treated as a hypothesis, not evidence (§29) |
 | **Advantage+ Creative ROAS advantage** | Meta: ~22% higher than manual creative settings | No independent replication; self-selection uncontrolled | **Unfalsifiable externally.** Treated as a hypothesis (§29) |
+| **Meta versus Google 2026 crossover** | eMarketer: Meta $243.46B against Google $239.54B in 2026, Meta growing 24.1% and Google 11.9% | Google's reported 2025 advertising revenue was $294.7B; 11.9% growth on eMarketer's 2026 figure implies a ~$214B 2025 base | **Scope mismatch, not resolved.** The two series are not on the same basis. The crossover is real inside eMarketer's definitions and is not comparable to reported advertising revenue |
 | **Q2 2026 results** | Consensus ~$60.26B revenue, EPS $7.13–7.23 (45 analysts); BofA $60.6B / $7.50 | Meta guidance $58–61B | **Not applicable — not yet reported.** Q2 2026 results are due July 29, 2026, three days after publication. All Q2 figures in this study are labelled as forecasts |
 
 ### B. Timeline of the confounded window
