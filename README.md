@@ -1,59 +1,86 @@
 # Product Management Case Studies — 90 Days
 
-**One product taken apart every day. What the numbers actually say, what the company would rather you read instead, and what I would ship next as a PM.**
+**One product taken apart every day for 90 days. What the numbers actually say, what the company would rather you read instead, and what I would ship next as a PM.**
 
-`Day 72 / 90` · `72 case studies` · `Primary-source figures only` · `Assumptions labelled, not buried` · `MIT`
+![Status](https://img.shields.io/badge/status-complete-2ea44f) ![Case studies](https://img.shields.io/badge/case%20studies-90%2F90-blue) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
-## What this is
+## At a glance
 
-A self-directed 90-day challenge: one full product case study per day, written to the same structure, published here as it is finished. No client work, no ghostwriting, no reposts — each folder is a day of my own analysis.
+| | |
+|---|---|
+| **Case studies** | 90, one per day, finished on Day 90 |
+| **Companion `ASSUMPTIONS.md` files** | 63 (Days 28–90) |
+| **Programmatic checks stated** | 4,499 across Days 60–90, from 79 to 344 per study |
+| **Coverage** | Consumer apps, Indian fintech, SaaS, AI, adtech, commerce, mobility, logistics, aviation, telecom, consumer hardware, B2B infrastructure and a 25-day healthcare run |
+| **Format** | A fixed 65-section structure, Markdown only |
 
-The point is not volume. It is doing the same disciplined pass 90 times on deliberately different businesses — consumer apps, Indian fintech, healthtech, media, logistics, aviation, consumer hardware, B2B infrastructure — until the method holds up regardless of the subject.
+---
+
+## Start here
+
+- **The finished method:** [Day 90 — Health in ChatGPT](Case%20Studies/Day-90-Health-in-ChatGPT), [Day 88 — Qure.ai](Case%20Studies/Day-88-Qure-ai) or [Day 72 — Entero Healthcare](Case%20Studies/Day-72-Entero-Healthcare).
+- **The method without the company:** read any `ASSUMPTIONS.md` on its own. It is the part that makes each analysis checkable.
+- **For hiring or evaluation:** sections 45–56 of any recent study are the PM core: pain points → opportunity → prioritisation → proposal → PRD → rollout → experiment → KPIs → roadmap.
 
 ---
 
 ## What one case study contains
 
-Each day is a folder with two files.
+Each day is a folder under `Case Studies/`.
 
-**`README.md`** — the case study itself, in a fixed 65-section format. It runs from cover and company background through market sizing, competitor analysis, SWOT, Porter's Five Forces and the Business Model Canvas; then personas, JTBD, user journey, IA and UX/UI/accessibility audits; then the metric stack (product metrics, North Star, AARRR, HEART); then strategy, growth loops, monetisation, trust & safety, architecture and privacy; then the prioritisation block — pain points, opportunity mapping, RICE, MoSCoW, Kano — into a concrete feature proposal with a PRD, wireframes, rollout plan, A/B test design, KPI dashboard and roadmap; and it closes with risks, PM lessons, interview questions, references, a self review and an appendix of source conflicts.
+**`README.md`** is the case study itself, in a fixed 65-section format:
 
-**`ASSUMPTIONS.md`** — five parts, always in the same order:
+- **Context:** cover, company background, market sizing, competitor analysis, SWOT, Porter's Five Forces, Business Model Canvas.
+- **Users:** personas, JTBD, user journey, IA, and UX/UI/accessibility audits.
+- **Metrics:** product metrics, North Star, AARRR, HEART.
+- **Strategy:** growth loops, monetisation, trust & safety, architecture, privacy.
+- **Prioritisation and proposal:** pain points, opportunity mapping, RICE, MoSCoW and Kano, then a concrete feature proposal with PRD, wireframes, rollout plan, A/B test design, KPI dashboard and roadmap.
+- **Close:** risks, PM lessons, interview questions, references, a self review, and an appendix of source conflicts.
 
-1. **Assumptions**, each with what supports it, the rival reading given equal weight, why the analysis proceeds anyway, and what would settle it
-2. **Derivations** — the arithmetic, shown
-3. **What the author invented** — every fabricated persona, number or scenario, named
+**`ASSUMPTIONS.md`** (Days 28 onward) has five parts, always in the same order:
+
+1. **Assumptions:** what supports each one, the rival reading given equal weight, why the analysis proceeds anyway, and what would settle it
+2. **Derivations:** the arithmetic, shown
+3. **Constructs:** every persona, number or scenario the author invented, named
 4. **What would falsify the thesis**
 5. **What could not be found out**
 
-Where the analysis is quantitative, the figures are asserted programmatically against the filing before publishing (100+ checks on a typical recent study), and the count is stated in the case study.
+A few early folders also hold charts or images (Days 7, 9, 27). Day 40 includes a `NEWSLETTER.md`.
+
+---
+
+## How the series evolved
+
+The format hardened over time. Early entries are left as published rather than retrofitted, because the drift is part of the record.
+
+| Days | What changed |
+|---|---|
+| 01–27 | Shorter studies, lighter on primary sources; Mermaid diagrams throughout |
+| 28–32 | A companion `ASSUMPTIONS.md` appears |
+| 33–49 | `ASSUMPTIONS.md` on every study; the 65-section structure and the five-part format settle in by the mid-40s |
+| 50 onward | Mermaid dropped in favour of Markdown tables and static charts (Days 56 and 66 are the exceptions) |
+| 60 onward | Every figure asserted by a `verify.py` script against the filings before writing; each study states its check count |
+| 66–90 | A continuous healthcare run: insurance, hospitals, diagnostics, pharmacy, devices, pharma, then digital and AI health |
+
+The `verify.py` scripts were delivered alongside each study but are not committed to this repository. The check counts are as recorded in each study.
 
 ---
 
 ## Rules the series follows
 
-- **No fabricated figures.** Every number is from a filing, a disclosure, an official release or a named source. Anything derived says it is derived and shows the working. Anything invented lives in Part 3 of `ASSUMPTIONS.md`.
-- **The rival reading gets equal weight.** Each load-bearing assumption is written alongside the strongest case against it, and the case study says where it stops short.
-- **Scores are argued, not tuned.** RICE inputs are justified in the open; where an override is applied, the argument for it is stated rather than the score quietly adjusted to match the conclusion.
+- **No fabricated figures.** Every number comes from a filing, a disclosure, an official release or a named source. Anything derived says so and shows the working. Anything invented lives in Part 3 of `ASSUMPTIONS.md`.
+- **The rival reading gets equal weight.** Each load-bearing assumption is written alongside the strongest case against it.
+- **Scores are argued, not tuned.** RICE inputs are justified in the open. Where an override is applied, the argument is stated rather than the score quietly adjusted. Day 75, for example, scores its own proposal last under stress.
 - **Confidence is marked inline.** 🔴 flags a material limitation or an unresolved conflict; 🟡 flags a figure that carries sensitivity.
-- **The self review is honest.** Section 64 states what is weak, what could not be established, and what I would do differently — before anyone else has to.
-- **Markdown tables and static charts only** from Day 50 onward. No diagram rendering that breaks on GitHub.
-
----
-
-## How to read it
-
-- **New here?** Start with a recent one — [Day 72 — Entero Healthcare](Case%20Studies/Day-72%20-Entero-Healthcare), [Day 68 — Dr. Lal PathLabs](Case%20Studies/Day-68-Dr-Lal-PathLabs) or [Day 65 — Vodafone Idea](Case%20Studies/Day-65-Vodafone-Idea). The format is at its most developed there.
-- **Want the method, not the company?** Read any `ASSUMPTIONS.md` on its own. It is the part that makes the analysis checkable.
-- **Hiring or evaluating?** Sections 45–56 of any recent study are the PM core: pain points → opportunity → prioritisation → proposal → PRD → rollout → experiment → KPIs → roadmap.
-
-**A note on consistency.** The format hardened over time. Days 1–20 are shorter and lighter on primary sources; the 65-section structure and the tiered `ASSUMPTIONS.md` settle in from the mid-40s onward, and the quantitative verification pass starts later still. Early entries are left as published rather than retrofitted — the drift is part of the record.
+- **The self review is honest.** Section 64 states what is weak, what could not be established, and what I would do differently.
 
 ---
 
 ## The index
+
+### Days 01–27 · Consumer, SaaS and AI
 
 | # | Company | Domain | Focus |
 |---|---|---|---|
@@ -84,7 +111,12 @@ Where the analysis is quantitative, the figures are asserted programmatically ag
 | 25 | [Urban Company](Case%20Studies/Day-25-Urban-Company) | Services Marketplace | Supply quality as the product |
 | 26 | [Emergent](Case%20Studies/Day-26-Emergent) | AI Agents | Agentic software building in public |
 | 27 | [Slack](Case%20Studies/Day-27-Slack) | Collaboration SaaS | Enterprise messaging after the acquisition |
-| 28 | [Apollo 24|7](Case%20Studies/Day-28-Apollo-24-7) | Healthtech | Omnichannel healthcare and the pharmacy engine |
+
+### Days 28–49 · Platforms, fintech and India's consumer internet
+
+| # | Company | Domain | Focus |
+|---|---|---|---|
+| 28 | [Apollo 24\|7](Case%20Studies/Day-28-Apollo-24-7) | Healthtech | Omnichannel healthcare and the pharmacy engine |
 | 29 | [Google Ads](Case%20Studies/Day-29-Google-Ads) | AdTech | Auctions, automation and advertiser control |
 | 30 | [Meta Ads](Case%20Studies/Day-30-Meta-Ads) | AdTech | Signal loss and the ranking machine |
 | 31 | [ChatGPT](Case%20Studies/Day-31-ChatGPT) | AI Consumer | The assistant becoming a platform |
@@ -106,6 +138,11 @@ Where the analysis is quantitative, the figures are asserted programmatically ag
 | 47 | [Healthify](Case%20Studies/Day-47-HealthifyMe) | Health & Fitness | Selling the off-ramp |
 | 48 | [Snitch](Case%20Studies/Day-48-Snitch) | D2C Fashion | The chain that stopped building stores |
 | 49 | [River Mobility](Case%20Studies/Day-49-River-Mobility) | EV / Consumer Hardware | The ownership business hiding inside a shipment business |
+
+### Days 50–65 · Listed India, read from the filings
+
+| # | Company | Domain | Focus |
+|---|---|---|---|
 | 50 | [Zepto](Case%20Studies/Day-50-Zepto) | Quick Commerce | Profitable stores, unprofitable company |
 | 51 | [Ola](Case%20Studies/Day-51-Ola) | Mobility | The company that lost the commission war |
 | 52 | [Lenskart](Case%20Studies/Day-52-Lenskart) | Retail / Eyewear | Priced for the 943 million it hasn't met yet |
@@ -122,24 +159,64 @@ Where the analysis is quantitative, the figures are asserted programmatically ag
 | 63 | [BookMyShow](Case%20Studies/Day-63-BookMyShow) | Entertainment / Ticketing | Growing into the cheaper half of its own industry |
 | 64 | [Zypp Electric](Case%20Studies/Day-64-Zypp-Electric) | EV / Logistics | The asset company that stopped buying assets |
 | 65 | [Vodafone Idea](Case%20Studies/Day-65-Vodafone-Idea) | Telecom | The company that counts what it cannot reach |
+
+### Days 66–90 · Healthcare
+
+| # | Company | Domain | Focus |
+|---|---|---|---|
 | 66 | [Star Health](Case%20Studies/Day-66-Star-Health) | Insurance | The turnaround that happened somewhere else |
 | 67 | [Max Healthcare](Case%20Studies/Day-67-Max-Healthcare) | Healthtech — Hospitals | The metric its biggest competitor retired |
 | 68 | [Dr. Lal PathLabs](Case%20Studies/Day-68-Dr-Lal-PathLabs) | Healthtech — Diagnostics | Growth that did not come from more patients |
 | 69 | [MedPlus](Case%20Studies/Day-69-MedPlus) | Healthtech — Pharmacy Retail | The cohort curve is the disclosure |
 | 70 | [Poly Medicure](Case%20Studies/Day-70-Poly-Medicure) | Healthtech — Medical Devices | The growth was bought and the profit was not |
 | 71 | [Akums](Case%20Studies/Day-71-Akums) | Healthtech — Contract Manufacturing | The factory is theirs, the prescription is not |
-| 72 | [Entero Healthcare](Case%20Studies/Day-72%20-Entero-Healthcare) | Healthtech — Distribution | A quarter of the profit belongs to someone else |
+| 72 | [Entero Healthcare](Case%20Studies/Day-72-Entero-Healthcare) | Healthtech — Distribution | A quarter of the profit belongs to someone else |
+| 73 | [Rainbow Children's Medicare](Case%20Studies/Day-73-Rainbow-Children's-Medicare) | Healthtech — Hospitals | Two-thirds of the beds earn nothing |
+| 74 | [Medi Assist](Case%20Studies/Day-75-Medi-Assist) | Healthtech — Health Benefits Administration | Selling the capability to the people who might replace you |
+| 75 | [Cipla](Case%20Studies/Day-74-Cipla) | Pharmaceuticals | Record revenue, collapsing profit ¹ |
+| 76 | [Dr Agarwal's Health Care](Case%20Studies/Day-76-Dr-Agarwals-Healthcare) | Healthtech — Eye Hospitals | The network grew faster than the surgery |
+| 77 | [NephroPlus](Case%20Studies/Day-77-NephroPlus) | Healthtech — Dialysis | The growth is real, the dose is not |
+| 78 | [Oura](Case%20Studies/Day-78-Oura) | Health Wearables — AI | The ring pays for the AI, and nothing yet shows the AI pays for the ring |
+| 79 | [Ultrahuman](Case%20Studies/Day-79-Ultrahuman) | Health Wearables — AI | The AI is free, and so is almost everything else |
+| 80 | [Hims & Hers](Case%20Studies/Day-80-Hims-and-Hers) | Healthtech — Telehealth | The AI clinical engine that has no denominator |
+| 81 | [Hinge Health](Case%20Studies/Day-81-Hinge-Health) | Healthtech — Digital Care | The automation metric is 97%, and that is the problem |
+| 82 | [Doximity](Case%20Studies/Day-82-Doximity) | Healthtech — Physician Platform | The cost of AI is audited. The claims about it are not. |
+| 83 | [OpenEvidence](Case%20Studies/Day-83-OpenEvidence) | Clinical AI | There is no filing to check, so the claims get tested in court |
+| 84 | [Abridge](Case%20Studies/Day-84-Abridge) | Clinical AI — Ambient Documentation | The evidence exists. The vendor didn't produce it. |
+| 85 | [Eka Care](Case%20Studies/Day-85-Eka-Care) | Healthtech — Digital Health Records | 93.95 crore accounts. About a quarter of them get used. |
+| 86 | [Hippocratic AI](Case%20Studies/Day-86-Hippocratic-AI) | Clinical AI — Agents | "No safety issues" in 115 million interactions |
+| 87 | [Tempus AI](Case%20Studies/Day-87-Tempus-AI) | Precision Medicine — AI | What a company says when it has to |
+| 88 | [Qure.ai](Case%20Studies/Day-88-Qure-ai) | Medical Imaging AI | The company with no investors and all the numbers |
+| 89 | [Gaudium IVF](Case%20Studies/Day-89-Gaudium-IVF) | Healthtech — Fertility Care | When the patient is the auditor |
+| 90 | [Health in ChatGPT](Case%20Studies/Day-90-Health-in-ChatGPT) | AI Consumer — Health | What happens when nothing compels |
+
+¹ The Day 75 `README.md` is currently empty; its `ASSUMPTIONS.md` is complete.
 
 ---
 
+## Repository layout
+
+```
+.
+├── Case Studies/
+│   ├── Day 01 - Practo/
+│   │   └── README.md
+│   ├── …
+│   └── Day-90-Health-in-ChatGPT/
+│       ├── README.md
+│       └── ASSUMPTIONS.md
+├── LICENSE
+└── README.md
+```
+
 ## Author
 
-**Gaurav Singh** — Associate Product Manager, New Delhi. Background in yoga therapy and behavioural science, which is why the user-behaviour sections tend to run longer than the market-sizing ones.
+**Gaurav Singh**, Associate Product Manager, New Delhi. My background is in yoga therapy and behavioural science, which is why the user-behaviour sections tend to run longer than the market-sizing ones.
 
-I also write **The Teardown**, a weekly LinkedIn newsletter: one product taken apart every week — what broke, why it broke, and what I would ship next as a PM.
+I also write **The Teardown**, a weekly LinkedIn newsletter: one product taken apart every week. What broke, why it broke, and what I would ship next as a PM.
 
-Corrections are welcome and wanted. If a figure here is wrong, open an issue with the source and I will fix the study and say what changed.
+Corrections are welcome and wanted. If a figure here is wrong, open an issue with the source, and I will fix the study and say what changed.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). The analysis is mine; the company figures belong to their filings and are cited in each study's references section.
+MIT; see [LICENSE](LICENSE). The analysis is mine. The company figures belong to their filings and are cited in each study's references section.
